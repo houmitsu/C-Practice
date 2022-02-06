@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{33EE5BF6-02F7-08A2-8FEF-8C2831B13DD9}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LearnigCurve.cs">
     <Files>
-      <File FileName="Assets/Scripts/LearnigCurve.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LearnigCurve.cs" Line="14" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="C_ Practice" expanded="True" selected="True">
-            <Node name="Assets" expanded="True" />
+          <Node name="C_ Practice" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LearnigCurve.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -314,4 +314,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ba3d4524a8749e3afdcac44fc426d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentAge: 18
+  currentAge: 30
+  addedAge: 1

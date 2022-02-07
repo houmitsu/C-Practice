@@ -13,6 +13,9 @@ public class LearnigCurve : MonoBehaviour
         ComputeAge();
     }
 
+    /// <summary>
+    /// 年齢の合計（整数）を計算する
+    /// </summary>
     void ComputeAge()
     {
         Debug.Log(currentAge + addedAge);

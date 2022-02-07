@@ -5,13 +5,17 @@ using UnityEngine;
 public class LearnigCurve : MonoBehaviour
 {
     public int currentAge = 30;
+    public int addedAge = 1;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(30 + 1);
+        ComputeAge();
+    }
 
-        Debug.Log(currentAge + 1);
+    void ComputeAge()
+    {
+        Debug.Log(currentAge + addedAge);
     }
 
     // Update is called once per frame

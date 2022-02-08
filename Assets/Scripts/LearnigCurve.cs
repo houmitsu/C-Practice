@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class LearnigCurve : MonoBehaviour
 {
-    public int currentAge = 30;
+    //アクセス修飾子を変更
+    private int currentAge = 30;
+
     public int addedAge = 1;
+
+    public float pi = 3.14f;
+    public string firstName = "Harrison";
+    public bool isAuthor = true;
 
     // Start is called before the first frame update
     void Start()

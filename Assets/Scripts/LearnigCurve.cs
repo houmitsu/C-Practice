@@ -16,22 +16,30 @@ public class LearnigCurve : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ComputeAge();
-        Debug.Log($"文字列には{firstName}のような変数を挿入できる");
+        //ComputeAge();
+        //Debug.Log($"文字列には{firstName}のような変数を挿入できる");
         //Debug.Log(firstName * pi);
+        Debug.Log("キャラクターを選べよ。");
+        GenerateCharacter();
+        Debug.Log("いいのを選んだな");
     }
 
     /// <summary>
     /// 年齢の合計（整数）を計算する
     /// </summary>
-    void ComputeAge()
-    {
-        Debug.Log(currentAge + addedAge);
-    }
+    //void ComputeAge()
+    //{
+    //    Debug.Log(currentAge + addedAge);
+    //}
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void GenerateCharacter()
+    {
+        Debug.Log("Character Spike");
     }
 }

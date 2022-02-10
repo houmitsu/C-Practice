@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class LearnigCurve : MonoBehaviour
 {
-    //アクセス修飾子を変更
-    private int currentAge = 30;
-
     public int addedAge = 1;
 
     public float pi = 3.14f;
@@ -16,21 +13,9 @@ public class LearnigCurve : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //ComputeAge();
-        //Debug.Log($"文字列には{firstName}のような変数を挿入できる");
-        //Debug.Log(firstName * pi);
-        Debug.Log("キャラクターを選べよ。");
-        GenerateCharacter();
-        Debug.Log("いいのを選んだな");
+        int characterLevel = 32;
+        GenerateCharacter("Spike", characterLevel);
     }
-
-    /// <summary>
-    /// 年齢の合計（整数）を計算する
-    /// </summary>
-    //void ComputeAge()
-    //{
-    //    Debug.Log(currentAge + addedAge);
-    //}
 
     // Update is called once per frame
     void Update()
@@ -38,8 +23,8 @@ public class LearnigCurve : MonoBehaviour
         
     }
 
-    public void GenerateCharacter()
+    public void GenerateCharacter(string name, int level)
     {
-        Debug.Log("Character Spike");
+        Debug.LogFormat("Character: {0} - Level: {1}", name, level);
     }
 }

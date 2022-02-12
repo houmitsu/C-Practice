@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class LearningCurveThree : MonoBehaviour
 {
-    public bool hasDungeonKey = false;
-    public string weaponType = "Arcane Staff";
+    public bool weaponEquipped = true;
+    public string weaponType = "Londsword";
 
     // Start is called before the first frame update
     void Start()
     {
-        if(!hasDungeonKey)
+        if(weaponEquipped)
         {
-            Debug.Log("秘密の鍵がなければ入れませんぞ");
+            if(weaponType == "Londsword")
+            {
+                Debug.Log("女王陛下ばんざい！");
+            }
         }
-
-        if(weaponType != "LongSword")
+        else
         {
-            Debug.Log("その武器ではいけませんなぁ");
+            Debug.Log("素手では鎧武者に勝てぬぞ");
         }
     }
 

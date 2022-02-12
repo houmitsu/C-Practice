@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/LeaningCurveTwo.cs"
 "Assets/Scripts/LearningCurve.cs"
+"Assets/Scripts/LearningCurveThree.cs"
 -langversion:9.0
 
 /deterministic

@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class LeaningCurveTwo : MonoBehaviour
 {
-    public bool hasDungeonKey = true;
+    public int currentGold = 32;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(hasDungeonKey)
+        if (currentGold > 50)
         {
-            Debug.Log("秘密の鍵をお持ちだね。通りなさい。");
+            Debug.Log("旦那は金持ちだね。スリに注意しなさいよ。");
+        }
+        else if (currentGold < 15) 
+        {
+            Debug.Log("ちぇ。しけてやがる。またな");
         }
         else
         {
-            Debug.Log("戦士よ、身の証を立てねば通せぬぞ。");
+            Debug.Log("ちょうどいい額だ。いただくぜ。");
         }
-
     }
 
     // Update is called once per frame

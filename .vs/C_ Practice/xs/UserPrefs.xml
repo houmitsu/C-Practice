@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{33EE5BF6-02F7-08A2-8FEF-8C2831B13DD9}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LearnigCurve.cs">
     <Files>
-      <File FileName="Assets/Scripts/LearnigCurve.cs" Line="24" Column="31" />
+      <File FileName="Assets/Scripts/LearnigCurve.cs" Line="31" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="C_ Practice" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="LearnigCurve.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="30f78c22-1690-435b-88fa-6f97ac27eec0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="090f7c54-14f8-40ef-bff3-742c6ec65e7d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

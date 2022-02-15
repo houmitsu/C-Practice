@@ -8,6 +8,7 @@ public class LeaningSwich : MonoBehaviour
     void Start()
     {
         string characterAction = "Attack";
+        int diceRoll = 7;
 
         switch(characterAction)
         { 
@@ -20,6 +21,21 @@ public class LeaningSwich : MonoBehaviour
             default:
                 Debug.Log("防御せよ");
                 break;
+        }
+
+        switch(diceRoll)
+        {
+            case 7:
+            case 15:
+                Debug.Log("中程度のダメージ。悪くないよ。");
+                break;
+            case 20:
+                Debug.Log("急所に当たった。怪物が倒れるぞ");
+                break;
+            default:
+                Debug.Log("的を外した君は、ばったり倒れた。");
+                break;
+                
         }
     }
 

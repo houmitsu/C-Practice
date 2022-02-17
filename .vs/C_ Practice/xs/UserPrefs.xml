@@ -1,17 +1,20 @@
 ﻿<Properties StartupConfiguration="{33EE5BF6-02F7-08A2-8FEF-8C2831B13DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LeaningSwich.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LeaningA.cs">
     <Files>
-      <File FileName="Assets/Scripts/LeaningCurveTwo.cs" Line="28" Column="6" />
+      <File FileName="Assets/Scripts/LeaningCurveFour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LeaningCurveTwo.cs" />
       <File FileName="Assets/Scripts/LearningCurveThree.cs" />
-      <File FileName="Assets/Scripts/LeaningCurveFour.cs" />
-      <File FileName="Assets/Scripts/LeaningSwich.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LeaningSwich.cs" Line="40" Column="6" />
+      <File FileName="Assets/Scripts/LeaningA.cs" Line="5" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="C_ Practice" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LeaningA.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -20,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1137194c-967a-467c-8365-2b238659a97c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="00a1dbd1-7184-4731-930c-a091248a6f4f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

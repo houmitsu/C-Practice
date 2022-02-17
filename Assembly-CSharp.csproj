@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scripts/LeaningSwich.cs" />
     <Compile Include="Assets/Scripts/LearningCurve.cs" />
     <Compile Include="Assets/Scripts/LeaningA.cs" />
+    <Compile Include="Assets/Scripts/LeaningB.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

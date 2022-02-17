@@ -12,6 +12,10 @@ public class LeaningA: MonoBehaviour
 
         questPartyMembers.Add("Craven the Necromancer");
 
+        questPartyMembers.Insert(1, "Tanis the Thief");
+
+        questPartyMembers.RemoveAt(0);
+
         Debug.LogFormat("Party Members: {0}", questPartyMembers.Count);
     }
 

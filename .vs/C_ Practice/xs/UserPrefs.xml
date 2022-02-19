@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{33EE5BF6-02F7-08A2-8FEF-8C2831B13DD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PracticeA.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Leaning.cs">
     <Files>
-      <File FileName="Assets/Scripts/LeaningCurveFour.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LeaningCurveTwo.cs" />
-      <File FileName="Assets/Scripts/LearningCurveThree.cs" />
-      <File FileName="Assets/Scripts/LeaningSwich.cs" />
-      <File FileName="Assets/Scripts/LeaningA.cs" />
-      <File FileName="Assets/Scripts/LeaningB.cs" Line="21" Column="69" />
-      <File FileName="Assets/Scripts/PracticeA.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/Character.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/Leaning.cs" Line="10" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +10,7 @@
           <Node name="C_ Practice" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PracticeA.cs" selected="True" />
+                <Node name="Leaning.cs" selected="True" />
               </Node>
             </Node>
           </Node>

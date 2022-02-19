@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LeaningB : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,21 +16,28 @@ public class LeaningB : MonoBehaviour
             {"Aspirin", 1}
         };
 
-
-        //int numbberOfPotions = itemInventory["Potion"];
-        itemInventory["Potion"] = 10;
-        itemInventory.Add("Throwing Knife", 3);
-        itemInventory["Bandage"] = 5;
-
-        if(itemInventory.ContainsKey("Aspirin"))
+        foreach(KeyValuePair<string, int> kvp in itemInventory)
         {
-            itemInventory["Aspirin"] = 3;
+            Debug.LogFormat("Item: {0} - {1}g", kvp.Key, kvp.Value);
         }
 
-        itemInventory.Remove("Antidote");
 
-        Debug.LogFormat("Item: {0}", itemInventory.Count);  
+        //int numbberOfPotions = itemInventory["Potion"];
+        //itemInventory["Potion"] = 10;
+        //itemInventory.Add("Throwing Knife", 3);
+        //itemInventory["Bandage"] = 5;
+
+        //if(itemInventory.ContainsKey("Aspirin"))
+        //{
+        //    itemInventory["Aspirin"] = 3;
+        //}
+
+        //itemInventory.Remove("Antidote");
+
+        //Debug.LogFormat("Item: {0}", itemInventory.Count);  
     }
+
+    
 
     // Update is called once per frame
     void Update()

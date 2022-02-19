@@ -10,13 +10,31 @@ public class LeaningA: MonoBehaviour
         List<string> questPartyMembers = new List<string>()
         { "Grim the Barbarian", "Merlin the Wise", "Sterling the Knight"};
 
-        questPartyMembers.Add("Craven the Necromancer");
+        foreach(string partyMember in questPartyMembers)
+        {
+            Debug.LogFormat("{0} - Here!", partyMember);
+        }
 
-        questPartyMembers.Insert(1, "Tanis the Thief");
 
-        questPartyMembers.RemoveAt(0);
+        //for (int i = 0; i < questPartyMembers.Count; i++)
+        //{
+        //    Debug.LogFormat("Index: {0} - {1}", i, questPartyMembers[i]);
 
-        Debug.LogFormat("Party Members: {0}", questPartyMembers.Count);
+        //    if (questPartyMembers[i] == "Merlin the Wise")
+        //    {
+        //        Debug.Log("君がいてくれて嬉しいよ、マーリン！");
+        //    }
+
+        //}
+
+
+        //questPartyMembers.Add("Craven the Necromancer");
+
+        //questPartyMembers.Insert(1, "Tanis the Thief");
+
+        //questPartyMembers.RemoveAt(0);
+
+        //Debug.LogFormat("Party Members: {0}", questPartyMembers.Count);
     }
 
     // Update is called once per frame
